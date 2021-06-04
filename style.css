@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #323445;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+#introductions {
+    height: 70vh;
+    margin: 0 10% 30px 10%;
+}
+header {
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-links .icon {
+    margin-right: auto;
+    width: 60%;
+    transform: translateX(-20px);
+}
+#nav-links .icon div{
+    background-color: #FEC158;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 50% 50% 50%;
+    position: relative;
+}
+
+#nav-links .icon div div {
+    border-radius: 50%;
+    background-color: #323445;
+    width: 35px;
+    height: 17.5px;
+    border-radius:0 0 17.5px 17.5px;
+    background-color: #323445;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+}
+
+#nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 150px 0 170px;
+    border-radius: 10px;
+}
+
+#nav-links li {
+    margin: 10px 20px 10px 20px;
+    list-style: none;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#introduction {
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+#name {
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+#guhit {
+    width: 5%;
+    height: 8px;
+    margin: 10px 0 10px 0;
+    border-radius: 2px;
+    background-color: #FEC158;
+}
+
+.socials {
+    margin-top: 70px;
+    color: white;
+    font-size: 22px;
+}
+
+.socials a {
+    margin-right: 15px;
+}
+
+.socials a:hover {
+    color: #FEC158;
+}
+
+.intro-words {
+    margin-top: 80px;
+    color: #fff;
+    max-width: 350px;
+    align-self: flex-end;
+}
+
+.intro-words h3 {
+    color: #6E707C;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.intro-words #profession {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.intro-words #drama {
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.intro-words #intro {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+/*  ==================================================
+                        Skills
+    ==================================================
+*/
+#skills{
+    background: #232533;
+    height: 540px;
+    padding: 90px 10% 30px 10%;
+    color: #fff;
+}
+
+#skills h3 {
+    color: #6E707C;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#skills div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#skills .skills-words {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-words #p1 {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.skills-words #p2 {
+    font-size: 23px;
+    letter-spacing: 1px;
+    float: right;
+}
+
+#skills #p3 {
+    color: #a5a5a5;
+    margin-top: 50px;
+}
+
+#skills #p4 {
+    margin-top: 60px;
+}
+
+#skills #spending-time {
+    float: right;
+    display: flex;
+    margin-top: 50px;
+}
+
+#skills #spending-time div {
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#skills #spending-time div p {
+    font-size: 13px;
+    line-height: 12px;
+    align-self: flex-end;
+}
+
+#skills #spending-time div h3 {
+    color: #F2A52C;
+    font-size: 70px;
+    margin-right: 5px;
+}
+
+#skills #p4 {
+    color: #e0b475;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 70px;
+}
+
+#skills ul {
+    margin: 45px 60px 0 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#skills ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #3F4354;
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+    transition: .5s;
+    margin-right: 10px;
+    font-size: 30px;
+
+}
+#skills ul li:hover{
+    background: #F2A52C;
+    transform: translateY(-10px);
+}
+
+
+#skills ul li p {
+    font-size: 15px;
+}
+
+/*  ==================================================
+                        Projects
+    ==================================================
+*/
+#projects {
+    padding: 180px 10% 30px 10%;
+    position: relative;
+    height: 180vh;
+}
+
+#projects h3{
+    color: #6E707C;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#projects #p1 {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#projects #p2 {
+    margin-top: 40px;
+    color: #a5a5a5;
+}
+
+.explore-more {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    color: #e0b475;
+    font-size: 14px;
+}
+.explore-more a {
+    text-decoration: underline;
+    color: #e0b475;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#projects img {
+    margin: 0 70px 0 70px;
+}
+#projects #proj1 {
+    position: absolute;
+    top: 200px;
+    right: 15%;
+    width: 300px;
+    height: auto;
+}
+
+#projects #proj2 {
+    width: 300px;
+    height: auto;
+}
+
+#projects #proj3 {
+    position: absolute;
+    bottom: 3%;
+    right: 15%;
+    width: 300px;
+    height: auto;
+}
+
+/*  ==================================================
+                        Contact
+    ==================================================
+*/
+
+#contact {
+    padding: 90px 10% 30px 10%;
+    height: fit-content;
+    background: #232533;
+}
+
+#contact #div1 {
+    display: flex;
+    justify-content: space-between;
+}
+#contact div h3 {
+    color: #6E707C;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#contact .texts p {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#contact ul {
+    width: 40%;
+}
+
+#contact ul li{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+#contact ul li i {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact ul li h3 {
+    color: #F2A52C;
+}
+
+#contact ul li p {
+    color: #fff;
+}
+
+#contact ul li div {
+    align-self: flex-end;
+    margin-left: 15px;
+}
+
+#contact #div2 {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact #div2 p {
+    color: #fff;
+    margin-top: 30px;
+}
+
+#contact #div2 p span {
+    color: #a5a5a5;
+}
+
+#contact #div2 .socials2{
+    margin-top: 50px;
+}
+
+#contact #div2 .socials2 a{
+    margin: 0 10px 0 15px;
+    font-size: 20px;
+}
+
+#contact .icon {
+    margin: auto;
+}
+
+#contact .icon div{
+    background-color: #FEC158;
+    width: 40px;
+    height: 40px;
+    border-radius: 0 50% 50% 50%;
+    position: relative;
+}
+
+#contact .icon div div {
+    border-radius: 50%;
+    background-color: #323445;
+    width: 25px;
+    height: 12.5px;
+    border-radius:0 0 12.5px 12.5px;
+    background-color: #323445;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);
+}
+
+@media only screen and (max-width: 992px) {
+    #introductions {
+        height: 70vh;
+        margin: 0 80px 30px 80px;
+    }
+
+    #skills {
+        padding: 90px 80px 30px 80px;
+        height: 560px;
+    }
+
+    #projects {
+        padding: 180px 80px 30px 80px;
+    }
+
+    #projects img {
+        margin: 0 20px 0 20px;
+    }
+
+} 
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #nav-links {
+        position: absolute;
+        right: 0px;
+        top: 8vh;
+        background: #232533;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+    }
+
+    #nav-links ul{
+        height: 92vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #nav-links ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-links .icon {
+        display: none;
+    }
+
+}
